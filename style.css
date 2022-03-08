@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Signika+Negative&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image:url(./image/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color-letter-white {
+    color: rgb(0, 0, 0);
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+    font-family: 'Lobster', cursive;
+}
+
+.cabecalho-imagem {
+    width: 80px;
+    margin-right: 250px;
+}
+
+.cabecalho-menu {
+    display: flex;
+}
+
+.cabecalho-menu-item {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.conteudo {
+    border-top: 0.4px solid white;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.conteudo-principal-escrito {
+
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+
+.conteudo-principal-imagem {
+    height: 350px;
+    border-radius: 100%;
+}
+
+.conteudo-secundario {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #391c88;
+    padding-top: 48px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.whatsapp-button {
+    background-color: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: rgb(168, 25, 156);
+}
+
+.icone-instagram {
+    text-align: center;
+    color: rgb(168, 25, 156);
+
+}
+.rodape {
+    text-align: center;
+    border-bottom: 0px;
+}
+
+.img-rodape {
+    width: 100px;
+}
+
+.conteudo-lista {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.button-dark-mode {
+    background-color: black;
+    color:white;
+    border-radius: 30px;
+}
