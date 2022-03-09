@@ -9,17 +9,34 @@
 
 body {
     font-size: 100%;
-    background-image:url(./image/wallpaper.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.body-white {
+    background-image: url(./image/wallpaper1.jpeg);
+}
+
+.body-dark {
+    background-image: url(./image/wallpaperDm.jpeg);
+}
+
+.color-letter-dark {
+    color: darkseagreen;
+}
 .color-letter-white {
     color: rgb(0, 0, 0);
 }
 .cabecalho {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     padding: 12px;
@@ -64,6 +81,8 @@ body {
     font-family: 'Signika Negative', sans-serif;
     font-weight: 400;
     font-size: 64px;
+    flex-wrap: wrap;
+    
 }
 
 .conteudo-principal-escrito-subtitulo {
@@ -85,7 +104,7 @@ body {
 }
 
 .conteudo-secundario-titulo {
-    border-top: 0.4px solid #391c88;
+    border-top: 0.4px solid #6b6775;
     padding-top: 48px;
     margin-bottom: 20px;
     font-size: 60px;
